@@ -7,6 +7,8 @@ A learning portfolio project with one OpenID Connect identity provider and two s
 
 The Mini SSO provider handles login and consent. Each client has its own callback, client secret, and session cookie. Neither client handles the user's Mini SSO password.
 
+The standalone apps are maintained separately: [Daymark](https://github.com/RajSharma-01-20/daymark) and [Clearline DLP](https://github.com/RajSharma-01-20/clearline-dlp). This repository includes their demo client implementations so you can run and inspect the SSO flow end to end.
+
 ## Stack
 
 - Identity Provider: Flask, Authlib, SQLAlchemy, PostgreSQL or SQLite.
